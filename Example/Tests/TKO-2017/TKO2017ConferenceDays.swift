@@ -23,6 +23,7 @@ public let tko2017ConferenceDays: [ConferenceDay] = [
     }(),
     {
         let day2 = ConferenceDay()
+        day2.id = 1
         day2.date = Date.date(year: 2017, month: 3, day: 3, hour: 16, minute: 0, second: 0)
         for index in 22...45 {
             day2.sessionBlocks.append(tko2017SessionBlocks[index])
@@ -31,6 +32,7 @@ public let tko2017ConferenceDays: [ConferenceDay] = [
     }(),
     {
         let day3 = ConferenceDay()
+        day3.id = 2
         day3.date = Date.date(year: 2017, month: 3, day: 4, hour: 16, minute: 0, second: 0)
         for index in 46...55 {
             day3.sessionBlocks.append(tko2017SessionBlocks[index])

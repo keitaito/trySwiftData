@@ -13,18 +13,21 @@ import TrySwiftData
 public let tko2017Locations: [String : Location] = [
     "qaroom" : {
         let location = Location()
+        location.id = 0
         location.name = "Q&A Room"
         location.nameJP = "Q&Aルーム"
         return location
     }(),
     "mainroom" : {
         let location = Location()
+        location.id = 1
         location.name = "Seminar Room"
         location.nameJP = "セミナールーム"
         return location
     }(),
     "workshoproom" : {
         let location = Location()
+        location.id = 2
         location.name = "Workshop Room"
         location.nameJP = "ワークショップルーム"
         return location

@@ -14,12 +14,6 @@ class Tests: XCTestCase {
         let sources = [tko2017Conferences, tko2017Sponsors, tko2017ConferenceDays] as [Any]
         XCTAssert(generateDefaultRealm(named: "tryswift-tokyo2017.realm", sources: sources))
     }
-
-    /** try! Swift NYC 2016 */
-//    func testGenerateNewNYC2016DefaultRealm() {
-//        let sources = [nyc2016Conferences, nyc2016Sponsors, nyc2016ConferenceDays] as [Any]
-//        XCTAssertTrue(generateDefaultRealm(named: "tryswift-nyc2016.realm", sources: sources))
-//    }
 }
 
 extension Tests {

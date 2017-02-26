@@ -15,6 +15,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     // Day 1
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 0
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 8, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 9, minute: 45, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Breakfast"]!)
@@ -22,6 +23,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 1
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 9, minute: 45, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 10, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Opening"]!)
@@ -29,6 +31,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 2
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 10, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 10, minute: 20, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Alexis"]!)
@@ -37,6 +40,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 3
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 10, minute: 20, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 11, minute: 5, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Eric"]!)
@@ -45,6 +49,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 4
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 11, minute: 5, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 11, minute: 40, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1FirstCoffee"]!)
@@ -52,6 +57,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 5
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 11, minute: 40, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 12, minute: 5, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Nate"]!)
@@ -60,6 +66,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 6
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 12, minute: 5, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 12, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Meghan"]!)
@@ -68,6 +75,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 7
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 12, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 13, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Rikke"]!)
@@ -76,6 +84,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 8
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 13, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 14, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Lunch"]!)
@@ -83,6 +92,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 9
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 14, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 14, minute: 50, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Agnes"]!)
@@ -91,6 +101,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 10
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 14, minute: 50, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 15, minute: 05, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1LightningTalk1"]!)
@@ -98,6 +109,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 11
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 15, minute: 05, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 15, minute: 25, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Kazuaki"]!)
@@ -106,6 +118,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 12
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 15, minute: 25, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 15, minute: 35, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1LightningTalk2"]!)
@@ -113,6 +126,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 13
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 15, minute: 35, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 16, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Sommer"]!)
@@ -121,6 +135,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 14
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 16, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 16, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1SecondCoffee"]!)
@@ -128,6 +143,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 15
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 16, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 16, minute: 50, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Kyle"]!)
@@ -136,6 +152,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 16
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 16, minute: 50, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 17, minute: 5, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1LightningTalk3"]!)
@@ -143,6 +160,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 17
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 17, minute: 05, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 17, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Marius"]!)
@@ -151,6 +169,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 18
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 17, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 18, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Orta"]!)
@@ -159,6 +178,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 19
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 18, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 18, minute: 10, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1LightningTalk4"]!)
@@ -166,6 +186,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 20
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 18, minute: 10, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 18, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1LightningTalk5"]!)
@@ -173,6 +194,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 21
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 2, hour: 18, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 2, hour: 19, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day1Closing"]!)
@@ -182,6 +204,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     // Day 2
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 22
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 9, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 9, minute: 45, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Breakfast"]!)
@@ -189,6 +212,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 23
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 9, minute: 45, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 10, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Opening"]!)
@@ -196,6 +220,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 24
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 10, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 10, minute: 20, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Brandon"]!)
@@ -204,6 +229,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 25
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 10, minute: 20, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 11, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Soroush"]!)
@@ -212,6 +238,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 26
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 11, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 11, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2FirstCoffee"]!)
@@ -219,6 +246,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 27
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 11, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 11, minute: 50, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Yusuke"]!)
@@ -227,6 +255,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 28
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 11, minute: 50, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 12, minute: 05, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2LightningTalk1"]!)
@@ -234,6 +263,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 29
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 12, minute: 05, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 12, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Kateryna"]!)
@@ -242,6 +272,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 30
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 12, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 13, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Mo"]!)
@@ -250,6 +281,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 31
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 13, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 14, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Lunch"]!)
@@ -257,6 +289,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 32
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 14, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 14, minute: 50, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2krzysztof"]!)
@@ -265,6 +298,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 33
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 14, minute: 50, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 15, minute: 05, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2LightningTalk2"]!)
@@ -272,6 +306,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 34
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 15, minute: 05, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 15, minute: 25, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2laura"]!)
@@ -280,6 +315,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 35
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 15, minute: 25, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 15, minute: 35, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2LightningTalk3"]!)
@@ -287,6 +323,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 36
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 15, minute: 35, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 16, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2jon"]!)
@@ -295,6 +332,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 37
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 16, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 16, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2SecondCoffee"]!)
@@ -302,6 +340,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 38
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 16, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 16, minute: 50, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2derek"]!)
@@ -310,6 +349,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 39
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 16, minute: 50, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 17, minute: 05, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2LightningTalk4"]!)
@@ -317,6 +357,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 40
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 17, minute: 05, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 17, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2christopher"]!)
@@ -325,6 +366,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 41
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 17, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 18, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2felix"]!)
@@ -333,6 +375,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 42
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 18, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 18, minute: 10, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2LightningTalk5"]!)
@@ -340,6 +383,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 43
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 18, minute: 10, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 18, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2LightningTalk6"]!)
@@ -347,6 +391,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 44
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 18, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 19, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Closing"]!)
@@ -354,6 +399,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 45
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 3, hour: 19, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 3, hour: 22, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day2Party"]!)
@@ -363,6 +409,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     // Day 3
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 46
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 9, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 9, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3Breakfast"]!)
@@ -370,6 +417,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 47
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 9, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 9, minute: 45, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3Opening"]!)
@@ -377,6 +425,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 48
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 9, minute: 45, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 10, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3Groups"]!)
@@ -384,6 +433,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 49
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 10, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 11, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3APIWorkshop"]!)
@@ -391,6 +441,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 50
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 11, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 13, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3CodingBegins"]!)
@@ -398,6 +449,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 51
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 13, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 14, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3Lunch"]!)
@@ -405,6 +457,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 52
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 14, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 18, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3CodingContinues"]!)
@@ -412,6 +465,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 53
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 18, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 18, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3CodingEnds"]!)
@@ -419,6 +473,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 54
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 18, minute: 30, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 20, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3Presentations"]!)
@@ -426,6 +481,7 @@ public let tko2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
+        sessionBlock.id = 55
         sessionBlock.startTime = Date.date(year: 2017, month: 3, day: 4, hour: 20, minute: 0, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 3, day: 4, hour: 20, minute: 30, second: 0)
         sessionBlock.sessions.append(tko2017Sessions["day3Winners"]!)

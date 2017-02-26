@@ -26,6 +26,7 @@ public let tko2017Venues: [String : Venue] = [
     }(),
     "bellesalle-kanda" : {
         let venue = Venue()
+        venue.id = 1
         venue.title = "BELLESALLE Kanda"
         venue.titleJP = "ベルサール神田"
         venue.address = "Japan, 〒101-0053 Tōkyō-to, Chiyoda-ku, 千代田区Kanda Mitoshirochō, ７"
@@ -39,6 +40,7 @@ public let tko2017Venues: [String : Venue] = [
     }(),
     "christon" : {
         let venue = Venue()
+        venue.id = 2
         venue.title = "Christon Cafe"
         venue.titleJP = "キリストンカフェ　東京"
         venue.address = "5 Chome-17-13 Shinjuku, Shinjuku-ku, Tōkyō-to 160-0022, Japan"

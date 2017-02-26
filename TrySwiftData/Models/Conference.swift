@@ -9,6 +9,7 @@
 import RealmSwift
 
 public class Conference: Object {
+    open dynamic var id = 0
     open dynamic var name: String?
     open dynamic var twitter: String?
     open dynamic var logoAssetName: String?
@@ -17,6 +18,10 @@ public class Conference: Object {
     open dynamic var conferenceDescriptionJP: String?
     open let venues = List<Venue>()
     open let organizers = List<Organizer>()
+
+    public override class func primaryKey() -> String? {
+        return "id"
+    }
 
     public var localizedDescription: String {
         return self.localizedString(for: conferenceDescription, japaneseString: conferenceDescriptionJP)

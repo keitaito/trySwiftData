@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22298A7B1E623E3C00FA978A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22298A7A1E623E3C00FA978A /* AppDelegate.swift */; };
+		22298A7D1E623E3C00FA978A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22298A7C1E623E3C00FA978A /* ViewController.swift */; };
+		22298A801E623E3C00FA978A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22298A7E1E623E3C00FA978A /* Main.storyboard */; };
+		22298A821E623E3C00FA978A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22298A811E623E3C00FA978A /* Assets.xcassets */; };
+		22298A851E623E3C00FA978A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22298A831E623E3C00FA978A /* LaunchScreen.storyboard */; };
 		226E7B321E56D9BF0018E2F9 /* NYC2016Organizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E7B311E56D9BF0018E2F9 /* NYC2016Organizers.swift */; };
 		22F0E3581E50F1B50060EA9F /* NYC2016ConferenceDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3401E50F1B50060EA9F /* NYC2016ConferenceDays.swift */; };
 		22F0E3591E50F1B50060EA9F /* NYC2016Conferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3411E50F1B50060EA9F /* NYC2016Conferences.swift */; };
@@ -31,9 +36,17 @@
 		22FE792F1E56AF3700DCFCAF /* TKO2017Organizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE792E1E56AF3700DCFCAF /* TKO2017Organizers.swift */; };
 		607FACEC1AFB9204008FA782 /* CreateRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */; };
 		D1C2A1C1C1ED581F9395D1C3 /* Pods_TrySwiftData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3D343B3BCFD0FE16F48FBA /* Pods_TrySwiftData_Tests.framework */; };
+		FFCA6E4D099B57E869EEDC45 /* Pods_TrySwiftDataUploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A318B77234E9A10DBF6019 /* Pods_TrySwiftDataUploader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22298A781E623E3C00FA978A /* TrySwiftDataUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrySwiftDataUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22298A7A1E623E3C00FA978A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22298A7C1E623E3C00FA978A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22298A7F1E623E3C00FA978A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22298A811E623E3C00FA978A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22298A841E623E3C00FA978A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22298A861E623E3C00FA978A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		226E7B311E56D9BF0018E2F9 /* NYC2016Organizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Organizers.swift; sourceTree = "<group>"; };
 		22F0E3401E50F1B50060EA9F /* NYC2016ConferenceDays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016ConferenceDays.swift; sourceTree = "<group>"; };
 		22F0E3411E50F1B50060EA9F /* NYC2016Conferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Conferences.swift; sourceTree = "<group>"; };
@@ -60,11 +73,22 @@
 		607FACE51AFB9204008FA782 /* TrySwiftData_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftData_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRealmTests.swift; sourceTree = "<group>"; };
+		80BCCED674055D8787FEFEFB /* Pods-TrySwiftDataUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftDataUploader.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftDataUploader/Pods-TrySwiftDataUploader.release.xcconfig"; sourceTree = "<group>"; };
 		CE171203CD5CC3EE87F100D4 /* Pods-TrySwiftData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData_Tests/Pods-TrySwiftData_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D0A318B77234E9A10DBF6019 /* Pods_TrySwiftDataUploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrySwiftDataUploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34162B8E33CF2073A2BD225 /* Pods-TrySwiftData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData_Tests/Pods-TrySwiftData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF91F76B120EC0C5667FA8F6 /* Pods-TrySwiftDataUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftDataUploader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftDataUploader/Pods-TrySwiftDataUploader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		22298A751E623E3C00FA978A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCA6E4D099B57E869EEDC45 /* Pods_TrySwiftDataUploader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE21AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,6 +100,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22298A791E623E3C00FA978A /* TrySwiftDataUploader */ = {
+			isa = PBXGroup;
+			children = (
+				22298A7A1E623E3C00FA978A /* AppDelegate.swift */,
+				22298A7C1E623E3C00FA978A /* ViewController.swift */,
+				22298A7E1E623E3C00FA978A /* Main.storyboard */,
+				22298A811E623E3C00FA978A /* Assets.xcassets */,
+				22298A831E623E3C00FA978A /* LaunchScreen.storyboard */,
+				22298A861E623E3C00FA978A /* Info.plist */,
+			);
+			name = TrySwiftDataUploader;
+			path = TrySwiftUploader;
+			sourceTree = "<group>";
+		};
 		22F0E33F1E50F1B50060EA9F /* NYC-2016 */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACE81AFB9204008FA782 /* Tests */,
+				22298A791E623E3C00FA978A /* TrySwiftDataUploader */,
 				607FACD11AFB9204008FA782 /* Products */,
 				B0E16D54F68F0D236F21D42C /* Pods */,
 				9625C5E529368A663A52731E /* Frameworks */,
@@ -126,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACE51AFB9204008FA782 /* TrySwiftData_Tests.xctest */,
+				22298A781E623E3C00FA978A /* TrySwiftDataUploader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				2E3D343B3BCFD0FE16F48FBA /* Pods_TrySwiftData_Tests.framework */,
+				D0A318B77234E9A10DBF6019 /* Pods_TrySwiftDataUploader.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,6 +203,8 @@
 			children = (
 				F34162B8E33CF2073A2BD225 /* Pods-TrySwiftData_Tests.debug.xcconfig */,
 				CE171203CD5CC3EE87F100D4 /* Pods-TrySwiftData_Tests.release.xcconfig */,
+				FF91F76B120EC0C5667FA8F6 /* Pods-TrySwiftDataUploader.debug.xcconfig */,
+				80BCCED674055D8787FEFEFB /* Pods-TrySwiftDataUploader.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -169,6 +212,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		22298A771E623E3C00FA978A /* TrySwiftDataUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22298A891E623E3C00FA978A /* Build configuration list for PBXNativeTarget "TrySwiftDataUploader" */;
+			buildPhases = (
+				5E0F30BF88FAA102CF8F408D /* [CP] Check Pods Manifest.lock */,
+				22298A741E623E3C00FA978A /* Sources */,
+				22298A751E623E3C00FA978A /* Frameworks */,
+				22298A761E623E3C00FA978A /* Resources */,
+				EADF19918EB38DD83828C7AC /* [CP] Embed Pods Frameworks */,
+				74007624BF7924956E1F8A95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrySwiftDataUploader;
+			productName = TrySwiftUploader;
+			productReference = 22298A781E623E3C00FA978A /* TrySwiftDataUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
 		607FACE41AFB9204008FA782 /* TrySwiftData_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TrySwiftData_Tests" */;
@@ -195,10 +258,15 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					22298A771E623E3C00FA978A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6LF3GMKZAB;
+						ProvisioningStyle = Automatic;
+					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 607FACCF1AFB9204008FA782;
@@ -219,11 +287,22 @@
 			projectRoot = "";
 			targets = (
 				607FACE41AFB9204008FA782 /* TrySwiftData_Tests */,
+				22298A771E623E3C00FA978A /* TrySwiftDataUploader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		22298A761E623E3C00FA978A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22298A851E623E3C00FA978A /* LaunchScreen.storyboard in Resources */,
+				22298A821E623E3C00FA978A /* Assets.xcassets in Resources */,
+				22298A801E623E3C00FA978A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +343,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrySwiftData_Tests/Pods-TrySwiftData_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5E0F30BF88FAA102CF8F408D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		639000267E592BDD558FDD69 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,9 +373,48 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrySwiftData_Tests/Pods-TrySwiftData_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		74007624BF7924956E1F8A95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrySwiftDataUploader/Pods-TrySwiftDataUploader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EADF19918EB38DD83828C7AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrySwiftDataUploader/Pods-TrySwiftDataUploader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		22298A741E623E3C00FA978A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22298A7D1E623E3C00FA978A /* ViewController.swift in Sources */,
+				22298A7B1E623E3C00FA978A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE11AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,7 +447,64 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		22298A7E1E623E3C00FA978A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22298A7F1E623E3C00FA978A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22298A831E623E3C00FA978A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22298A841E623E3C00FA978A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		22298A871E623E3C00FA978A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF91F76B120EC0C5667FA8F6 /* Pods-TrySwiftDataUploader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6LF3GMKZAB;
+				INFOPLIST_FILE = TrySwiftUploader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.TrySwiftDataUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22298A881E623E3C00FA978A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BCCED674055D8787FEFEFB /* Pods-TrySwiftDataUploader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = 6LF3GMKZAB;
+				INFOPLIST_FILE = TrySwiftUploader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.TrySwiftDataUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -443,6 +633,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		22298A891E623E3C00FA978A /* Build configuration list for PBXNativeTarget "TrySwiftDataUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22298A871E623E3C00FA978A /* Debug */,
+				22298A881E623E3C00FA978A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TrySwiftData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

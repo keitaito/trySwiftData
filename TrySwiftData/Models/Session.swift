@@ -23,6 +23,9 @@ import RealmSwift
 }
 
 public class Session: Object {
+    /** The primary key of this object to avoid duplications */
+    open dynamic var id = 0
+
     /** The type of content in this particular session */
     open dynamic var type: SessionType = .talk
 
@@ -54,6 +57,10 @@ public class Session: Object {
     open dynamic var venue: Venue?
 
     /***************************************************/
+
+    public override class func primaryKey() -> String? {
+        return "id"
+    }
 
     /** The main name of this session */
     public var formattedTitle: String? {

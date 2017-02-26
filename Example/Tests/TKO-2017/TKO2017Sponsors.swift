@@ -14,6 +14,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     //Platinum
     "ibm" : {
         let sponsor = Sponsor()
+        sponsor.id = 0
         sponsor.name = "IBM"
         sponsor.url = "http://www.ibm.com/"
         sponsor.displayURL = "ibm.com"
@@ -24,6 +25,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "cyberagent" : {
         let sponsor = Sponsor()
+        sponsor.id = 1
         sponsor.name = "CyberAgent"
         sponsor.url = "http://www.cyberagent.co.jp/"
         sponsor.displayURL = "cyberagent.co.jp"
@@ -34,6 +36,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "realm" : {
         let sponsor = Sponsor()
+        sponsor.id = 2
         sponsor.name = "Realm"
         sponsor.url = "http://www.realm.io/"
         sponsor.displayURL = "realm.io"
@@ -44,6 +47,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "recruit" : {
         let sponsor = Sponsor()
+        sponsor.id = 3
         sponsor.name = "Recruit Marketing Partners"
         sponsor.url = "http://www.recruit-mp.co.jp/career_engineer/"
         sponsor.displayURL = "recruit-mp.co.jp"
@@ -53,6 +57,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "yahoo" : {
         let sponsor = Sponsor()
+        sponsor.id = 4
         sponsor.name = "Yahoo! JAPAN"
         sponsor.url = "http://www.yahoo.co.jp"
         sponsor.displayURL = "yahoo.co.jp"
@@ -62,6 +67,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "line" : {
         let sponsor = Sponsor()
+        sponsor.id = 5
         sponsor.name = "LINE"
         sponsor.url = "https://linecorp.com/ja/"
         sponsor.displayURL = "linecorp.com"
@@ -73,6 +79,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     //Gold
     "speee" : {
         let sponsor = Sponsor()
+        sponsor.id = 6
         sponsor.name = "Speee"
         sponsor.url = "http://www.speee.jp"
         sponsor.displayURL = "speee.jp"
@@ -83,6 +90,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "casareal" : {
         let sponsor = Sponsor()
+        sponsor.id = 7
         sponsor.name = "casareal"
         sponsor.url = "https://www.casareal.co.jp"
         sponsor.displayURL = "casareal.co.jp"
@@ -92,6 +100,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "cookpad" : {
         let sponsor = Sponsor()
+        sponsor.id = 8
         sponsor.name = "Cookpad"
         sponsor.url = "https://info.cookpad.com"
         sponsor.displayURL = "cookpad.com"
@@ -102,6 +111,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "firebase" : {
         let sponsor = Sponsor()
+        sponsor.id = 9
         sponsor.name = "Firebase"
         sponsor.url = "http://www.firebase.com/"
         sponsor.displayURL = "firebase.com"
@@ -112,6 +122,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "laiso" : {
         let sponsor = Sponsor()
+        sponsor.id = 10
         sponsor.name = "laiso"
         sponsor.url = "http://www.github.com/laiso"
         sponsor.displayURL = "github.com/laiso"
@@ -122,6 +133,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "moneyforward" : {
         let sponsor = Sponsor()
+        sponsor.id = 11
         sponsor.name = "Money Forward"
         sponsor.url = "https://moneyforward.com"
         sponsor.displayURL = "moneyforward.com"
@@ -132,6 +144,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "sansan" : {
         let sponsor = Sponsor()
+        sponsor.id = 12
         sponsor.name = "Sansan"
         sponsor.url = "https://jp.corp-sansan.com"
         sponsor.displayURL = "corp-sansan.com"
@@ -142,6 +155,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "mercari" : {
         let sponsor = Sponsor()
+        sponsor.id = 13
         sponsor.name = "Mercari"
         sponsor.url = "https://www.mercari.com"
         sponsor.displayURL = "mercari.com"
@@ -152,6 +166,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "balto" : {
         let sponsor = Sponsor()
+        sponsor.id = 14
         sponsor.name = "balto"
         sponsor.url = "http://www.balto.io/"
         sponsor.displayURL = "balto.io"
@@ -164,6 +179,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     //Silver
     "furyu" : {
         let sponsor = Sponsor()
+        sponsor.id = 15
         sponsor.name = "FuRyu"
         sponsor.url = "http://www.saiyo.furyu.jp"
         sponsor.displayURL = "saiyo.furyu.jp"
@@ -173,6 +189,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "player" : {
         let sponsor = Sponsor()
+        sponsor.id = 16
         sponsor.name = "Player!"
         sponsor.url = "http://www.playerapp.tokyo"
         sponsor.displayURL = "playerapp.tokyo"
@@ -182,6 +199,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "ubiregi" : {
         let sponsor = Sponsor()
+        sponsor.id = 17
         sponsor.name = "Ubiregi"
         sponsor.url = "https://ubiregi.com"
         sponsor.displayURL = "ubiregi.com"
@@ -192,6 +210,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "freee" : {
         let sponsor = Sponsor()
+        sponsor.id = 18
         sponsor.name = "freee"
         sponsor.url = "https://corp.freee.co.jp"
         sponsor.displayURL = "corp.freee.co.jp"
@@ -202,6 +221,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "ohako" : {
         let sponsor = Sponsor()
+        sponsor.id = 19
         sponsor.name = "OHAKO"
         sponsor.url = "http://ohako-inc.jp"
         sponsor.displayURL = "ohako-inc.jp"
@@ -211,6 +231,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "hatena" : {
         let sponsor = Sponsor()
+        sponsor.id = 20
         sponsor.name = "Hatena"
         sponsor.url = "http://hatenacorp.jp"
         sponsor.displayURL = "hatenacorp.jp"
@@ -220,6 +241,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "prtimes" : {
         let sponsor = Sponsor()
+        sponsor.id = 21
         sponsor.name = "PR TIMES"
         sponsor.url = "http://prtimes.co.jp"
         sponsor.displayURL = "prtimes.co.jp"
@@ -229,6 +251,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "kytrade" : {
         let sponsor = Sponsor()
+        sponsor.id = 22
         sponsor.name = "KY TRADE"
         sponsor.url = "http://www.kytrade.co.jp"
         sponsor.displayURL = "kytrade.co.jp"
@@ -238,6 +261,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "gmo" : {
         let sponsor = Sponsor()
+        sponsor.id = 23
         sponsor.name = "GMO Pepabo"
         sponsor.url = "https://pepabo.com"
         sponsor.displayURL = "pepabo.com"
@@ -247,6 +271,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "fyusion" : {
         let sponsor = Sponsor()
+        sponsor.id = 24
         sponsor.name = "Fyusion"
         sponsor.url = "http://www.fyusion.com"
         sponsor.displayURL = "fyusion.com"
@@ -256,6 +281,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "caraquri" : {
         let sponsor = Sponsor()
+        sponsor.id = 25
         sponsor.name = "Caraquri"
         sponsor.url = "http://caraquri.com/"
         sponsor.displayURL = "caraquri.com"
@@ -265,6 +291,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "payjp" : {
         let sponsor = Sponsor()
+        sponsor.id = 26
         sponsor.name = "PAY.JP"
         sponsor.url = "https://pay.jp/"
         sponsor.displayURL = "pay.jp/"
@@ -276,6 +303,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     // Student
     "cyberagent-student" : {
         let sponsor = Sponsor()
+        sponsor.id = 27
         sponsor.name = "CyberAgent"
         sponsor.url = "http://www.cyberagent.co.jp/"
         sponsor.displayURL = "cyberagent.co.jp"
@@ -286,6 +314,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "prtimes-student" : {
         let sponsor = Sponsor()
+        sponsor.id = 28
         sponsor.name = "PR TIMES"
         sponsor.url = "http://prtimes.co.jp"
         sponsor.displayURL = "prtimes.co.jp"
@@ -295,6 +324,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "sansan-student" : {
         let sponsor = Sponsor()
+        sponsor.id = 29
         sponsor.name = "Sansan"
         sponsor.url = "https://jp.corp-sansan.com"
         sponsor.displayURL = "corp-sansan.com"
@@ -305,6 +335,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "mercari-student" : {
         let sponsor = Sponsor()
+        sponsor.id = 30
         sponsor.name = "Mercari"
         sponsor.url = "https://www.mercari.com"
         sponsor.displayURL = "mercari.com"
@@ -317,6 +348,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     // Event
     "meetup" : {
         let sponsor = Sponsor()
+        sponsor.id = 31
         sponsor.name = "Meetup"
         sponsor.url = "https://www.meetup.com"
         sponsor.displayURL = "meetup.com"
@@ -327,6 +359,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "oisix" : {
         let sponsor = Sponsor()
+        sponsor.id = 32
         sponsor.name = "Oisix"
         sponsor.url = "http://www.oisix.co.jp"
         sponsor.displayURL = "oisix.co.jp"
@@ -337,6 +370,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "polidea" : {
         let sponsor = Sponsor()
+        sponsor.id = 33
         sponsor.name = "Polidea"
         sponsor.url = "https://www.polidea.com"
         sponsor.displayURL = "polidea.com"
@@ -347,6 +381,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "2-3works" : {
         let sponsor = Sponsor()
+        sponsor.id = 34
         sponsor.name = "2-3 Works"
         sponsor.url = "http://2-3works.tokyo"
         sponsor.displayURL = "2-3works.tokyo"
@@ -357,6 +392,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "pivotal" : {
         let sponsor = Sponsor()
+        sponsor.id = 35
         sponsor.name = "Pivotal"
         sponsor.url = "https://pivotal.io"
         sponsor.displayURL = "pivotal.io"
@@ -367,6 +403,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "ninedrafts" : {
         let sponsor = Sponsor()
+        sponsor.id = 36
         sponsor.name = "Nine Drafts"
         sponsor.url = "https://www.facebook.com/9drafts/"
         sponsor.displayURL = "facebook.com/9drafts/"
@@ -376,6 +413,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "appdojo" : {
         let sponsor = Sponsor()
+        sponsor.id = 37
         sponsor.name = "アプリクリエイター道場"
         sponsor.url = "http://app-dojo.jp"
         sponsor.displayURL = "app-dojo.jp"

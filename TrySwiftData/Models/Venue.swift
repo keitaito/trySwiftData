@@ -16,6 +16,7 @@ import Contacts
 }
 
 public class Venue: Object {
+    open dynamic var id = 0
     open dynamic var title: String = ""
     open dynamic var titleJP: String?
     open dynamic var address: String = ""
@@ -28,6 +29,10 @@ public class Venue: Object {
     open dynamic var wifiUsername: String?
     open dynamic var wifiPassword: String?
     open dynamic var type: VenueType = .conference
+
+    public override class func primaryKey() -> String? {
+        return "id"
+    }
 
     public var localizedTitle: String {
         return self.localizedString(for: title, japaneseString: titleJP)

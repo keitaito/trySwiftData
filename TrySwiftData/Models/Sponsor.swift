@@ -18,6 +18,7 @@ import RealmSwift
 }
 
 public class Sponsor: Object {
+    open dynamic var id = 0
     open dynamic var name: String = ""
     open dynamic var nameJP: String?
     open dynamic var url: String?
@@ -26,6 +27,10 @@ public class Sponsor: Object {
     open dynamic var logoAssetName: String?
     open dynamic var logoImageWebURL: String?
     open dynamic var level: SponsorLevel = .event
+
+    public override class func primaryKey() -> String? {
+        return "id"
+    }
 
     public var localizedName: String {
         return self.localizedString(for: name, japaneseString: nameJP)

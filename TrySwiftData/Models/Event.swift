@@ -9,6 +9,7 @@
 import RealmSwift
 
 public class Event: Object {
+    open dynamic var id = 0
     open dynamic var title: String = ""
     open dynamic var titleJP: String?
     open dynamic var logoAssetName: String?
@@ -23,6 +24,10 @@ public class Event: Object {
 
     public var localizedLocation: String {
         return self.localizedString(for: location, japaneseString: locationJP)
+    }
+
+    public override class func primaryKey() -> String? {
+        return "id"
     }
 
     public var logoURL: URL {
